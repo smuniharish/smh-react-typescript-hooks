@@ -34,7 +34,7 @@ multipleAction: Its a function accepts the updatable object values
 ```js
 import {useDefaultReducer} from 'smh-react-typescript-hooks'
 
-// I would like to recommand initialState before the component declaration
+// I would like to recommand to create initialState before the component declaration
 const initialState = {
   email:null,
   password:null,
