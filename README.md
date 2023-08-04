@@ -23,9 +23,19 @@ This package is customized react hooks for making development easier, faster and
 
 #### useDefaultReducer
 ##### props
-* initialState -> Object
-* required -> true
-* returns -> state(object), multipleAction(function)
+
+* options
+
+| Parameter | Type     | Description | Default| **Required* |
+| :-------- | :------- | :-------| :------- | :----- |
+| `initialState` | `object` | the object of key value pairs | None | True |
+
+* Structured Parameters
+
+| Parameter | Definition | type |
+| :-------- | :------- | :----- |
+| `state` | This state always returns the latest state | object |
+| `multipleAction` | fuction which accepts object type to update the state values | function |
 
 State :
 State is a set of values based on the initial state
